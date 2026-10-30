@@ -20,7 +20,7 @@ The first version is read-only for accounts and funds, apart from internal notes
 
 ## Custody model
 
-Funds stay in user wallets or in the on-chain escrow. The console cannot move, freeze, or redirect them, because it has no function for it and the contract would not allow it.
+Funds stay in user wallets or in the on-chain escrow. The console will have no function to move, freeze, or redirect them. The contract only pays the parties of a trade and its fee, whoever submits the transaction.
 
 ## Relationship to other repositories
 
